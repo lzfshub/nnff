@@ -1,7 +1,7 @@
 README.md
 setup.py
 nnff/__init__.py
-nnff/nnff0.1.1.py
+nnff/nnff.py
 nnff/nnff0.1.py
 nnff.egg-info/PKG-INFO
 nnff.egg-info/SOURCES.txt

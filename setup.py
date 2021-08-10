@@ -12,7 +12,7 @@ from setuptools import setup, find_packages            #这个包没有的可以
 
 setup(
     name = "nnff",      #这里是pip项目发布的名称
-    version = "0.2.1",  #版本号，数值大的会优先被pip
+    version = "0.2.3",  #版本号，数值大的会优先被pip
     keywords = ["pip", "nnff","framework"],
     description = "An neutral network file framwork.",
     long_description = "An neutral network file framwork.",
@@ -22,8 +22,8 @@ setup(
     author_email = "lzfsmail@gmail.com",
     packages = find_packages(),
     include_package_data = True,
-    entry_points={'console_scripts': ['nnff=nnff.test:main']},
+    entry_points={'console_scripts': ['nnff=nnff.nnff:main']},
     platforms = "win",
-    install_requires = ["gitpython"]          #这个项目需要的第三方库
+    install_requires = ["gitpython", "docopt"]          #这个项目需要的第三方库
 )
 
